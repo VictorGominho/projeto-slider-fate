@@ -1,0 +1,36 @@
+@media (max-width: 620px) {
+     .slider {
+          padding: 0 15px;
+          gap: 10px;
+     }
+
+     .btn-seta {
+          width: 20px;
+          height: 20px;
+          padding: 20px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+     }
+
+     .lista-personagens {
+          height: 480px;
+     }
+
+     .cartao .retrato {
+          max-height: 230px;
+     }
+
+     .cartao .info .nome {
+          max-width: 50%;
+          font-size: 18px;
+     }
+
+     .cartao .info .vida {
+          font-size: 14px;
+     }
+
+     .cartao .info .ataque {
+          font-size: 14px;
+     }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Projeto Fate Slider - MapaDev Week</title>
+
+     <link rel="shortcut icon" href="src/imagens/Site-favicon.ico" type="image/x-icon">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="src/css/reset.css">
+     <link rel="stylesheet" href="src/css/estilos.css">
+     <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+     <header class="cabecalho">
+          <img src="src/imagens/icon.png" alt="ícone" class="icone">
+          <h1 class="titulo">MapaDev Week</h1>
+     </header>
+     
+     <main class="slider">
+          <button class="btn-seta btn-voltar" id="btn-voltar">
+               <img src="src/imagens/seta.png" alt="seta voltar">
+          </button>
+
+          <ul class="lista-personagens">
+               <li class="cartao selecionado fundo-1">
+                    <div class="info">
+                         <p class="vida">HP 15150</p>
+                         <h2 class="nome">Saber</h2>
+                         <p class="ataque">ATK 11221</p>
+                    </div>
+
+                    <div class="container-imagem">
+                         <img src="src/imagens/saber.webp" alt="Saber" class="retrato">
+                    </div>
+
+                    <div class="descricao">
+                         <h3 class="titulo">Descrição</h3>
+                         <p class="texto">
+                              Um rei idealista que acredita que uma boa vida é tudo o que alguém precisa.
+                              Protege os fracos, pune os fortes e é uma pessoa completamente impecável.
+                              Calma e firme, ela é sempre séria e um ser humano exemplar.
+                              ...Mas, mesmo que ela não diga isso em voz alta, ela odeia perder.
+                              Ela não pega leve consigo mesma,
+                              e sente grande remorso quando perde.
+                         </p>
+                    </div>
+               </li>
+               <li class="cartao fundo-2">
+                    <div class="info">
+                         <p class="vida">HP 11521</p>
+                         <h2 class="nome">Archer</h2>
+                         <p class="ataque">ATK 9398</p>
+                    </div>
+
+                    <div class="container-imagem">
+                         <img src="src/imagens/archer.webp" alt="Archer" class="retrato">
+                    </div>
+
+                    <div class="descricao">
+                         <h3 class="titulo">Descrição</h3>
+                         <p class="texto">
+                              Como sua origem é ligeiramente diferente de outros Espíritos Heroicos, você não pode chamá-lo de Espírito Heroico oficial.
+                              Ele é um Guardião e serve como sistema defensivo para a “inconsciência coletiva” da humanidade.
+                              Seu próprio ser é a Contra-Força da humanidade. Ele é um executor da justiça sem rosto escolhido pelos sem nome.
+                         </p>
+                    </div>
+               </li>
+               <li class="cartao fundo-3">
+                    <div class="info">
+                         <p class="vida">HP 8937</p>
+                         <h2 class="nome">Rider</h2>
+                         <p class="ataque">ATK 7200</p>
+                    </div>
+
+                    <div class="container-imagem">
+                         <img src="src/imagens/rider.webp" alt="Rider" class="retrato">
+                    </div>
+
+                    <div class="descricao">
+                         <h3 class="titulo">Descrição</h3>
+                         <p class="texto">
+                              A mais nova das três irmãs Górgonas na mitologia grega.
+                              Originalmente uma deusa da terra, devido aos deuses do Olimpo e às crenças fanáticas do povo, ela foi forçada a fugir para a Ilha Sem Forma, onde se tornou um monstro que transformava as pessoas em pedra.
+                         </p>
+                    </div>
+               </li>
+          </ul>
+
+          <button class="btn-seta" id="btn-avancar">
+               <img src="src/imagens/seta.png" alt="seta avançar">
+          </button>
+     </main>
+
+     <script src="src/js/index.js"></script>
+</body>
+</html>
